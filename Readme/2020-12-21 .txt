@@ -1,0 +1,20 @@
+Readme
+
+There are two zipped projects that has project files 1. tsys 2 sqlFiles
+
+Here I have followed MVC Pattern to implement this assignment
+
+CurrencyExchange.java has properties related to the different currency and values.
+
+Item.java has properties related to name of items and corresponding cost.
+
+CurrencyDao.java has database connection, it also holds method for inserting new records in database
+and also converting in respective currency value
+
+MainController.java this is the main method which handles the request and also responsible to show data on main web page
+
+
+Index.jsp, the webpage, I have used JSTL library, this has instance of MainController class, it reads data from database stores it into List then converts the cost into different currency values and presents on web page.
+
+I have attached screenshot of webpage and database tables
+
